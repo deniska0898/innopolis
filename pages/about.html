@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Сайт группы</title>
+    <script async src="../JS/popup.js"></script>
+</head>
+<body class="page">
+    <header class="header">
+        <img src="../img/logo.svg" class="site-logo" alt="site-logo">
+        <div class="site-menu">
+            <a class="menu-link" href="../index.html">Главная</a>
+            <a class="menu-link" href="../pages/students.html">Студенты</a>
+            <a class="menu-link" href="#">О курсе</a>
+            <a class="menu-link" href="../pages/contact.html">Контакты</a>
+        </div>
+        <a class="login-button" href="login.html">Войти</a>
+        <div class="login-popup">
+            <img class="popup-close" alt="Закрывающая иконка" src="../img/close.svg">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="main-heading">О курсе 📱</h1>
+        <p class="text-about">Посмотрите видео о нас</p>
+        <div class="inframe">
+            <iframe class="video" width="820px" height="550px" src="https://www.youtube.com/embed/0v7pdd4za6s" allowfullscreen></iframe>
+        </div>
+    </main>    
+    <footer class="footer">
+        <p class="copyright">
+        2022 &copy; <a href="" class="innop-link"> учебный центр </a>
+    </p>
+    </footer>
+</body>
+</html>
